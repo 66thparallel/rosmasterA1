@@ -1,0 +1,76 @@
+[0.105s] Invoking command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1': VIRTUAL_ENV_PROMPT=(venv) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.116s] UpdateCTestConfiguration  from :/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini
+[0.116s] Parse Config file:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini
+[0.116s]    Site: jllaptop
+[0.116s]    Build name: (empty)
+[0.117s]  Add coverage exclude regular expressions.
+[0.117s] Create new tag: 20260808-0050 - Experimental
+[0.117s] UpdateCTestConfiguration  from :/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini
+[0.117s] Parse Config file:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini
+[0.117s] Test project /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1
+[0.117s] Constructing a list of tests
+[0.117s] Done constructing a list of tests
+[0.117s] Updating test list for fixtures
+[0.117s] Added 0 tests to meet fixture requirements
+[0.118s] Checking test dependency graph...
+[0.118s] Checking test dependency graph end
+[0.118s] test 1
+[0.118s]     Start 1: test_pure_pursuit
+[0.119s] 
+[0.119s] 1: Test command: /home/janeikeliu/projects/sparky/venv/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml" "--package-name" "rosmaster_a1" "--output-file" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/ament_cmake_gtest/test_pure_pursuit.txt" "--command" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_pure_pursuit" "--gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml"
+[0.119s] 1: Working Directory: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1
+[0.119s] 1: Test timeout computed to be: 60
+[0.181s] 1: -- run_test.py: invoking following command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1':
+[0.181s] 1:  - /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_pure_pursuit --gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml
+[0.182s] 1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[0.183s] 1: [==========] Running 3 tests from 1 test suite.
+[0.183s] 1: [----------] Global test environment set-up.
+[0.183s] 1: [----------] 3 tests from PurePursuit
+[0.183s] 1: [ RUN      ] PurePursuit.CommandsMaximumSpeedForStraightAheadTarget
+[0.183s] 1: [       OK ] PurePursuit.CommandsMaximumSpeedForStraightAheadTarget (0 ms)
+[0.183s] 1: [ RUN      ] PurePursuit.LimitsSteeringAndReducesSpeedForLargeHeadingError
+[0.183s] 1: [       OK ] PurePursuit.LimitsSteeringAndReducesSpeedForLargeHeadingError (0 ms)
+[0.183s] 1: [ RUN      ] PurePursuit.WrapsHeadingErrorAcrossPiBoundary
+[0.184s] 1: [       OK ] PurePursuit.WrapsHeadingErrorAcrossPiBoundary (0 ms)
+[0.184s] 1: [----------] 3 tests from PurePursuit (0 ms total)
+[0.184s] 1: 
+[0.184s] 1: [----------] Global test environment tear-down
+[0.184s] 1: [==========] 3 tests from 1 test suite ran. (0 ms total)
+[0.184s] 1: [  PASSED  ] 3 tests.
+[0.184s] 1: -- run_test.py: return code 0
+[0.184s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml'
+[0.185s] 1: -- run_test.py: verify result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml'
+[0.195s] 1/2 Test #1: test_pure_pursuit ................   Passed    0.08 sec
+[0.195s] test 2
+[0.195s]     Start 2: test_vehicle_kinematics
+[0.195s] 
+[0.196s] 2: Test command: /home/janeikeliu/projects/sparky/venv/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml" "--package-name" "rosmaster_a1" "--output-file" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/ament_cmake_gtest/test_vehicle_kinematics.txt" "--command" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_vehicle_kinematics" "--gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml"
+[0.197s] 2: Working Directory: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1
+[0.197s] 2: Test timeout computed to be: 60
+[0.267s] 2: -- run_test.py: invoking following command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1':
+[0.267s] 2:  - /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_vehicle_kinematics --gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml
+[0.269s] 2: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[0.270s] 2: [==========] Running 2 tests from 1 test suite.
+[0.270s] 2: [----------] Global test environment set-up.
+[0.271s] 2: [----------] 2 tests from VehicleKinematics
+[0.271s] 2: [ RUN      ] VehicleKinematics.IntegratesStraightMotion
+[0.271s] 2: [       OK ] VehicleKinematics.IntegratesStraightMotion (0 ms)
+[0.271s] 2: [ RUN      ] VehicleKinematics.IntegratesHeadingUsingBicycleYawRate
+[0.271s] 2: [       OK ] VehicleKinematics.IntegratesHeadingUsingBicycleYawRate (0 ms)
+[0.271s] 2: [----------] 2 tests from VehicleKinematics (0 ms total)
+[0.271s] 2: 
+[0.272s] 2: [----------] Global test environment tear-down
+[0.272s] 2: [==========] 2 tests from 1 test suite ran. (0 ms total)
+[0.272s] 2: [  PASSED  ] 2 tests.
+[0.272s] 2: -- run_test.py: return code 0
+[0.273s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml'
+[0.273s] 2: -- run_test.py: verify result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml'
+[0.284s] 2/2 Test #2: test_vehicle_kinematics ..........   Passed    0.09 sec
+[0.285s] 
+[0.285s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 2
+[0.285s] 
+[0.285s] Label Time Summary:
+[0.285s] gtest    =   0.17 sec*proc (2 tests)
+[0.286s] 
+[0.286s] Total Test time (real) =   0.17 sec
+[0.292s] Invoked command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1' returned '0': VIRTUAL_ENV_PROMPT=(venv) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

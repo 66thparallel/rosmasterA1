@@ -1,0 +1,38 @@
+path_planner_node:
+  ros__parameters:
+    frame_id: map
+    waypoints:
+      - 0.0
+      - 0.0
+      - 2.0
+      - 0.0
+      - 2.0
+      - 2.0
+      - 0.0
+      - 2.0
+      - 0.0
+      - 0.0
+
+pure_pursuit_controller_node:
+  ros__parameters:
+    control_period_s: 0.1
+    lookahead_distance: 0.8
+    minimum_speed: 0.1
+    max_speed: 1.0
+    max_steering_angle: 0.6
+    odometry_timeout_s: 0.5
+    steering_gain: 1.5
+    wheelbase: 0.3
+
+vehicle_simulator_node:
+  ros__parameters:
+    command_timeout_s: 0.5
+    max_speed: 1.0
+    max_steering_angle: 0.6
+    simulation_period_s: 0.02
+    wheelbase: 0.3
+
+metrics_logger_node:
+  ros__parameters:
+    log_dir: metrics_logs
+    summary_period_s: 2.0

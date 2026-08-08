@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000737] (rosmaster_a1) JobQueued: {'identifier': 'rosmaster_a1', 'dependencies': OrderedDict({'rosmaster_a1': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1'})}
+[0.000914] (rosmaster_a1) JobStarted: {'identifier': 'rosmaster_a1'}
+[0.099229] (-) TimerEvent: {}
+[0.131831] (rosmaster_a1) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'janeikeliu', 'GIT_EDITOR': ':', 'GIT_ASKPASS': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/janeikeliu', 'OLDPWD': '/home/janeikeliu/projects/rosmasterA1', 'TERM_PROGRAM_VERSION': '1.132.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e9e44209-0fb1-4f5b-a59c-301f49fe6089.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install:/home/janeikeliu/projects/sparky/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'janeikeliu', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/29743_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/projects/sparky/venv/bin:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/bin/remote-cli:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/opt/ros/jazzy/bin:/home/janeikeliu/projects/sparky/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/janei/.local/bin:/mnt/c/Users/janei/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/janei/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af4f20ae35.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/janeikeliu/projects/sparky/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'GIT_MERGE_AUTOEDIT': 'no', 'COPILOT_DEBUG_NONCE': 'cc570cc590d3f2e6dd4eac63b70ef2b5', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/janeikeliu/projects/sparky/install/path_planner/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_sim/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_description/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/metrics_logger/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.144049] (rosmaster_a1) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini\n'}
+[0.144915] (rosmaster_a1) StdoutLine: {'line': b'Parse Config file:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini\n'}
+[0.145143] (rosmaster_a1) StdoutLine: {'line': b'   Site: jllaptop\n'}
+[0.145357] (rosmaster_a1) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.145664] (rosmaster_a1) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.145844] (rosmaster_a1) StdoutLine: {'line': b'Create new tag: 20260808-0049 - Experimental\n'}
+[0.146124] (rosmaster_a1) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini\n'}
+[0.146235] (rosmaster_a1) StdoutLine: {'line': b'Parse Config file:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/CTestConfiguration.ini\n'}
+[0.146323] (rosmaster_a1) StdoutLine: {'line': b'Test project /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1\n'}
+[0.146402] (rosmaster_a1) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.146506] (rosmaster_a1) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.146598] (rosmaster_a1) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.146689] (rosmaster_a1) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.146780] (rosmaster_a1) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.146868] (rosmaster_a1) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.146932] (rosmaster_a1) StdoutLine: {'line': b'test 1\n'}
+[0.147828] (rosmaster_a1) StdoutLine: {'line': b'    Start 1: test_pure_pursuit\n'}
+[0.148002] (rosmaster_a1) StdoutLine: {'line': b'\n'}
+[0.148124] (rosmaster_a1) StdoutLine: {'line': b'1: Test command: /home/janeikeliu/projects/sparky/venv/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml" "--package-name" "rosmaster_a1" "--output-file" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/ament_cmake_gtest/test_pure_pursuit.txt" "--command" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_pure_pursuit" "--gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml"\n'}
+[0.148213] (rosmaster_a1) StdoutLine: {'line': b'1: Working Directory: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1\n'}
+[0.148290] (rosmaster_a1) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.199339] (-) TimerEvent: {}
+[0.220031] (rosmaster_a1) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1':\n"}
+[0.220284] (rosmaster_a1) StdoutLine: {'line': b'1:  - /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_pure_pursuit --gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml\n'}
+[0.222561] (rosmaster_a1) StdoutLine: {'line': b'1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.222686] (rosmaster_a1) StdoutLine: {'line': b'1: [==========] Running 3 tests from 1 test suite.\n'}
+[0.222793] (rosmaster_a1) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.222879] (rosmaster_a1) StdoutLine: {'line': b'1: [----------] 3 tests from PurePursuit\n'}
+[0.222962] (rosmaster_a1) StdoutLine: {'line': b'1: [ RUN      ] PurePursuit.CommandsMaximumSpeedForStraightAheadTarget\n'}
+[0.223046] (rosmaster_a1) StdoutLine: {'line': b'1: [       OK ] PurePursuit.CommandsMaximumSpeedForStraightAheadTarget (0 ms)\n'}
+[0.223130] (rosmaster_a1) StdoutLine: {'line': b'1: [ RUN      ] PurePursuit.LimitsSteeringAndReducesSpeedForLargeHeadingError\n'}
+[0.223674] (rosmaster_a1) StdoutLine: {'line': b'1: [       OK ] PurePursuit.LimitsSteeringAndReducesSpeedForLargeHeadingError (1 ms)\n'}
+[0.223782] (rosmaster_a1) StdoutLine: {'line': b'1: [ RUN      ] PurePursuit.WrapsHeadingErrorAcrossPiBoundary\n'}
+[0.223955] (rosmaster_a1) StdoutLine: {'line': b'1: /home/janeikeliu/projects/rosmasterA1/test/test_pure_pursuit.cpp:42: Failure\n'}
+[0.224064] (rosmaster_a1) StdoutLine: {'line': b'1: Expected: (command.heading_error) < (0.0), actual: 0.1099996666866654 vs 0\n'}
+[0.224226] (rosmaster_a1) StdoutLine: {'line': b'1: \n'}
+[0.224345] (rosmaster_a1) StdoutLine: {'line': b'1: [  FAILED  ] PurePursuit.WrapsHeadingErrorAcrossPiBoundary (0 ms)\n'}
+[0.224434] (rosmaster_a1) StdoutLine: {'line': b'1: [----------] 3 tests from PurePursuit (1 ms total)\n'}
+[0.224594] (rosmaster_a1) StdoutLine: {'line': b'1: \n'}
+[0.224670] (rosmaster_a1) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.224755] (rosmaster_a1) StdoutLine: {'line': b'1: [==========] 3 tests from 1 test suite ran. (2 ms total)\n'}
+[0.224855] (rosmaster_a1) StdoutLine: {'line': b'1: [  PASSED  ] 2 tests.\n'}
+[0.224930] (rosmaster_a1) StdoutLine: {'line': b'1: [  FAILED  ] 1 test, listed below:\n'}
+[0.225029] (rosmaster_a1) StdoutLine: {'line': b'1: [  FAILED  ] PurePursuit.WrapsHeadingErrorAcrossPiBoundary\n'}
+[0.225188] (rosmaster_a1) StdoutLine: {'line': b'1: \n'}
+[0.225452] (rosmaster_a1) StdoutLine: {'line': b'1:  1 FAILED TEST\n'}
+[0.225665] (rosmaster_a1) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.225778] (rosmaster_a1) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml'\n"}
+[0.225934] (rosmaster_a1) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_pure_pursuit.gtest.xml'\n"}
+[0.236110] (rosmaster_a1) StdoutLine: {'line': b'1/2 Test #1: test_pure_pursuit ................***Failed    0.09 sec\n'}
+[0.236633] (rosmaster_a1) StdoutLine: {'line': b'test 2\n'}
+[0.236739] (rosmaster_a1) StdoutLine: {'line': b'    Start 2: test_vehicle_kinematics\n'}
+[0.236830] (rosmaster_a1) StdoutLine: {'line': b'\n'}
+[0.236908] (rosmaster_a1) StdoutLine: {'line': b'2: Test command: /home/janeikeliu/projects/sparky/venv/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml" "--package-name" "rosmaster_a1" "--output-file" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/ament_cmake_gtest/test_vehicle_kinematics.txt" "--command" "/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_vehicle_kinematics" "--gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml"\n'}
+[0.237107] (rosmaster_a1) StdoutLine: {'line': b'2: Working Directory: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1\n'}
+[0.237207] (rosmaster_a1) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.289955] (rosmaster_a1) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1':\n"}
+[0.290158] (rosmaster_a1) StdoutLine: {'line': b'2:  - /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_vehicle_kinematics --gtest_output=xml:/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml\n'}
+[0.291493] (rosmaster_a1) StdoutLine: {'line': b'2: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.291846] (rosmaster_a1) StdoutLine: {'line': b'2: [==========] Running 2 tests from 1 test suite.\n'}
+[0.291960] (rosmaster_a1) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[0.292156] (rosmaster_a1) StdoutLine: {'line': b'2: [----------] 2 tests from VehicleKinematics\n'}
+[0.292306] (rosmaster_a1) StdoutLine: {'line': b'2: [ RUN      ] VehicleKinematics.IntegratesStraightMotion\n'}
+[0.292772] (rosmaster_a1) StdoutLine: {'line': b'2: [       OK ] VehicleKinematics.IntegratesStraightMotion (0 ms)\n'}
+[0.293118] (rosmaster_a1) StdoutLine: {'line': b'2: [ RUN      ] VehicleKinematics.IntegratesHeadingUsingBicycleYawRate\n'}
+[0.293235] (rosmaster_a1) StdoutLine: {'line': b'2: [       OK ] VehicleKinematics.IntegratesHeadingUsingBicycleYawRate (0 ms)\n'}
+[0.293396] (rosmaster_a1) StdoutLine: {'line': b'2: [----------] 2 tests from VehicleKinematics (0 ms total)\n'}
+[0.293475] (rosmaster_a1) StdoutLine: {'line': b'2: \n'}
+[0.293564] (rosmaster_a1) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[0.293658] (rosmaster_a1) StdoutLine: {'line': b'2: [==========] 2 tests from 1 test suite ran. (0 ms total)\n'}
+[0.293730] (rosmaster_a1) StdoutLine: {'line': b'2: [  PASSED  ] 2 tests.\n'}
+[0.293816] (rosmaster_a1) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.293913] (rosmaster_a1) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml'\n"}
+[0.294734] (rosmaster_a1) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/test_results/rosmaster_a1/test_vehicle_kinematics.gtest.xml'\n"}
+[0.299461] (-) TimerEvent: {}
+[0.302428] (rosmaster_a1) StdoutLine: {'line': b'2/2 Test #2: test_vehicle_kinematics ..........   Passed    0.07 sec\n'}
+[0.303101] (rosmaster_a1) StdoutLine: {'line': b'\n'}
+[0.303942] (rosmaster_a1) StdoutLine: {'line': b'50% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 2\n'}
+[0.304396] (rosmaster_a1) StdoutLine: {'line': b'\n'}
+[0.307011] (rosmaster_a1) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.307609] (rosmaster_a1) StdoutLine: {'line': b'gtest    =   0.15 sec*proc (2 tests)\n'}
+[0.307870] (rosmaster_a1) StdoutLine: {'line': b'\n'}
+[0.307933] (rosmaster_a1) StdoutLine: {'line': b'Total Test time (real) =   0.16 sec\n'}
+[0.308016] (rosmaster_a1) StdoutLine: {'line': b'\n'}
+[0.308737] (rosmaster_a1) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[0.309218] (rosmaster_a1) StdoutLine: {'line': b'\t\x1b[0;31m  1 - test_pure_pursuit (Failed)\x1b[0;0m\n'}
+[0.309825] (rosmaster_a1) StderrLine: {'line': b'Errors while running CTest\n'}
+[0.310166] (rosmaster_a1) StderrLine: {'line': b'Output from these tests are in: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1/Testing/Temporary/LastTest.log\n'}
+[0.310252] (rosmaster_a1) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[0.312213] (rosmaster_a1) CommandEnded: {'returncode': 8}
+[0.313122] (rosmaster_a1) TestFailure: {'identifier': 'rosmaster_a1'}
+[0.313390] (rosmaster_a1) JobEnded: {'identifier': 'rosmaster_a1', 'rc': 0}
+[0.313999] (-) EventReactorShutdown: {}

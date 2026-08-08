@@ -1,0 +1,13 @@
+<!-- Placeholder shape for simulator visualization, not ROSMASTER A1 geometry. -->
+<robot name="rosmaster_a1_simulator">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.4 0.2 0.1"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+</robot>

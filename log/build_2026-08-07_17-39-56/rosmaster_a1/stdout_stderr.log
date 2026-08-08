@@ -1,0 +1,142 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/janeikeliu/projects/sparky/venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done (4.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1
+[ 50%] [32mBuilding CXX object CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o[0m
+[01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:[m[K In member function ‘[01m[Kvoid rosmaster_a1::PathPlannerNode::[01;32m[Kpublish_metrics[m[K(const rclcpp::Time&)[m[K’:
+[01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:93:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)[m[K’
+   93 |       diagnostic_msgs::msg::KeyValue{"frame_id", frame_id_[01;31m[K}[m[K,
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp:7[m[K,
+                 from [01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:8[m[K:
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   50 |   explicit [01;36m[KKeyValue_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [9][m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   50 |   explicit KeyValue_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   40 |   explicit [01;36m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KKeyValue_[m[K
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:94:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)[m[K’
+   94 | gs::msg::KeyValue{"waypoint_count", std::to_string(waypoints_.size())[01;31m[K}[m[K,
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   50 |   explicit [01;36m[KKeyValue_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [15][m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   50 |   explicit KeyValue_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   40 |   explicit [01;36m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KKeyValue_[m[K
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:95:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)[m[K’
+   95 | ::KeyValue{"publish_interval_ms", std::to_string(publish_interval_ms)[01;31m[K}[m[K,
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   50 |   explicit [01;36m[KKeyValue_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [20][m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   50 |   explicit KeyValue_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   40 |   explicit [01;36m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KKeyValue_[m[K
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:96:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)[m[K’
+   96 | stic_msgs::msg::KeyValue{"loop_rate_hz", std::to_string(loop_rate_hz)[01;31m[K}[m[K,
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   50 |   explicit [01;36m[KKeyValue_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [13][m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   50 |   explicit KeyValue_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::[01;32m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   40 |   explicit [01;36m[KKeyValue_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)[m[K’
+   36 | struct [01;36m[KKeyValue_[m[K
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::[01;32m[KKeyValue_[m[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:97:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kdiagnostic_msgs::msg::DiagnosticStatus_<std::allocator<void> >::_values_type[m[K’ {aka ‘[01m[Kstd::vector<diagnostic_msgs::msg::KeyValue_<std::allocator<void> >, std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > > >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+   97 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/13/vector:72[m[K,
+                 from [01m[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:6[m[K:
+[01m[K/usr/include/c++/13/bits/vector.tcc:210:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::[01;32m[Koperator=[m[K(const std::vector<_Tp, _Alloc>&) [35m[K[with _Tp = diagnostic_msgs::msg::KeyValue_<std::allocator<void> >; _Alloc = std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >][m[K[m[K’
+  210 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/vector.tcc:211:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<diagnostic_msgs::msg::KeyValue_<std::allocator<void> >, std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > > >&[m[K’
+  211 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/13/vector:66[m[K:
+[01m[K/usr/include/c++/13/bits/stl_vector.h:766:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::[01;32m[Koperator=[m[K(std::vector<_Tp, _Alloc>&&) [35m[K[with _Tp = diagnostic_msgs::msg::KeyValue_<std::allocator<void> >; _Alloc = std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >][m[K[m[K’
+  766 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:766:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<diagnostic_msgs::msg::KeyValue_<std::allocator<void> >, std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > > >&&[m[K’
+  766 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 [01;36m[K~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:788:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::[01;32m[Koperator=[m[K(std::initializer_list<_Tp>) [35m[K[with _Tp = diagnostic_msgs::msg::KeyValue_<std::allocator<void> >; _Alloc = std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >][m[K[m[K’
+  788 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:788:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >[m[K’
+  788 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/path_planner_node.dir/build.make:76: CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

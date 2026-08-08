@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_vehicle_kinematics.dir/test/test_vehicle_kinematics.cpp.o -o test_vehicle_kinematics  gtest/libgtest_main.a gtest/libgtest.a -pthread 

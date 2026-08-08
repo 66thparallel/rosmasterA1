@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable path_planner_node[0m
+[100%] Built target path_planner_node
+-- Install configuration: ""
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/path_planner_node
+-- Set non-toolchain portion of runtime path of "/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/path_planner_node" to ""
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/config
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/config/default_route.yaml
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/package_run_dependencies/rosmaster_a1
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/parent_prefix_path/rosmaster_a1
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/ament_prefix_path.sh
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/ament_prefix_path.dsv
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/path.sh
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/path.dsv
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.bash
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.sh
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.zsh
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.dsv
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/package.dsv
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/packages/rosmaster_a1
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/cmake/rosmaster_a1Config.cmake
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/cmake/rosmaster_a1Config-version.cmake
+-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/package.xml

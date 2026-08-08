@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (rosmaster_a1) JobQueued: {'identifier': 'rosmaster_a1', 'dependencies': OrderedDict()}
+[0.000561] (rosmaster_a1) JobStarted: {'identifier': 'rosmaster_a1'}
+[0.021461] (rosmaster_a1) JobProgress: {'identifier': 'rosmaster_a1', 'progress': 'cmake'}
+[0.023105] (rosmaster_a1) Command: {'cmd': ['/usr/bin/cmake', '/home/janeikeliu/projects/rosmasterA1', '-DCMAKE_INSTALL_PREFIX=/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1'], 'cwd': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'janeikeliu', 'GIT_EDITOR': ':', 'GIT_ASKPASS': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/janeikeliu', 'OLDPWD': '/home/janeikeliu/projects/sparky', 'TERM_PROGRAM_VERSION': '1.132.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e9e44209-0fb1-4f5b-a59c-301f49fe6089.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/janeikeliu/projects/sparky/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'janeikeliu', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/29743_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/projects/sparky/venv/bin:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/bin/remote-cli:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/opt/ros/jazzy/bin:/home/janeikeliu/projects/sparky/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/janei/.local/bin:/mnt/c/Users/janei/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/janei/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af4f20ae35.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/janeikeliu/projects/sparky/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'GIT_MERGE_AUTOEDIT': 'no', 'COPILOT_DEBUG_NONCE': 'cc570cc590d3f2e6dd4eac63b70ef2b5', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/janeikeliu/projects/sparky/install/path_planner/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_sim/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_description/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/metrics_logger/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.098736] (-) TimerEvent: {}
+[0.199200] (-) TimerEvent: {}
+[0.299682] (-) TimerEvent: {}
+[0.342654] (rosmaster_a1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.399915] (-) TimerEvent: {}
+[0.500464] (-) TimerEvent: {}
+[0.601158] (-) TimerEvent: {}
+[0.701837] (-) TimerEvent: {}
+[0.802428] (-) TimerEvent: {}
+[0.903035] (-) TimerEvent: {}
+[1.003620] (-) TimerEvent: {}
+[1.104194] (-) TimerEvent: {}
+[1.204733] (-) TimerEvent: {}
+[1.305234] (-) TimerEvent: {}
+[1.324956] (rosmaster_a1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.405385] (-) TimerEvent: {}
+[1.505822] (-) TimerEvent: {}
+[1.606428] (-) TimerEvent: {}
+[1.707009] (-) TimerEvent: {}
+[1.807562] (-) TimerEvent: {}
+[1.908102] (-) TimerEvent: {}
+[2.008637] (-) TimerEvent: {}
+[2.035438] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.108807] (-) TimerEvent: {}
+[2.209282] (-) TimerEvent: {}
+[2.309639] (-) TimerEvent: {}
+[2.398782] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.409730] (-) TimerEvent: {}
+[2.410057] (rosmaster_a1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.413124] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.414622] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.509946] (-) TimerEvent: {}
+[2.532050] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.610136] (-) TimerEvent: {}
+[2.710603] (-) TimerEvent: {}
+[2.810939] (-) TimerEvent: {}
+[2.825514] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.835832] (rosmaster_a1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.836925] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.838006] (rosmaster_a1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.888000] (rosmaster_a1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.911030] (-) TimerEvent: {}
+[3.011400] (-) TimerEvent: {}
+[3.051061] (rosmaster_a1) StdoutLine: {'line': b'-- Found Python3: /home/janeikeliu/projects/sparky/venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.111599] (-) TimerEvent: {}
+[3.212052] (-) TimerEvent: {}
+[3.226873] (rosmaster_a1) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[3.312498] (-) TimerEvent: {}
+[3.413125] (-) TimerEvent: {}
+[3.513545] (-) TimerEvent: {}
+[3.559954] (rosmaster_a1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.582969] (rosmaster_a1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.615909] (-) TimerEvent: {}
+[3.621739] (rosmaster_a1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.659255] (rosmaster_a1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.716182] (-) TimerEvent: {}
+[3.788149] (rosmaster_a1) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[3.816339] (-) TimerEvent: {}
+[3.825243] (rosmaster_a1) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[3.869131] (rosmaster_a1) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.916689] (-) TimerEvent: {}
+[3.965854] (rosmaster_a1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.972818] (rosmaster_a1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.016993] (-) TimerEvent: {}
+[4.088003] (rosmaster_a1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.117141] (-) TimerEvent: {}
+[4.217456] (-) TimerEvent: {}
+[4.317897] (-) TimerEvent: {}
+[4.326863] (rosmaster_a1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.418244] (-) TimerEvent: {}
+[4.473236] (rosmaster_a1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.518482] (-) TimerEvent: {}
+[4.619248] (-) TimerEvent: {}
+[4.719685] (-) TimerEvent: {}
+[4.820290] (-) TimerEvent: {}
+[4.920873] (-) TimerEvent: {}
+[4.963888] (rosmaster_a1) StdoutLine: {'line': b'-- Configuring done (4.9s)\n'}
+[4.980373] (rosmaster_a1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.985337] (rosmaster_a1) StdoutLine: {'line': b'-- Build files have been written to: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1\n'}
+[4.999901] (rosmaster_a1) CommandEnded: {'returncode': 0}
+[5.001306] (rosmaster_a1) JobProgress: {'identifier': 'rosmaster_a1', 'progress': 'build'}
+[5.001343] (rosmaster_a1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', '--', '-j22', '-l22'], 'cwd': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'janeikeliu', 'GIT_EDITOR': ':', 'GIT_ASKPASS': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/janeikeliu', 'OLDPWD': '/home/janeikeliu/projects/sparky', 'TERM_PROGRAM_VERSION': '1.132.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e9e44209-0fb1-4f5b-a59c-301f49fe6089.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/janeikeliu/projects/sparky/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'janeikeliu', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/29743_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/projects/sparky/venv/bin:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/bin/remote-cli:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/opt/ros/jazzy/bin:/home/janeikeliu/projects/sparky/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/janei/.local/bin:/mnt/c/Users/janei/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/janei/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af4f20ae35.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/janeikeliu/projects/sparky/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'GIT_MERGE_AUTOEDIT': 'no', 'COPILOT_DEBUG_NONCE': 'cc570cc590d3f2e6dd4eac63b70ef2b5', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/janeikeliu/projects/sparky/install/path_planner/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_sim/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_description/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/metrics_logger/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[5.020995] (-) TimerEvent: {}
+[5.049746] (rosmaster_a1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o\x1b[0m\n'}
+[5.121281] (-) TimerEvent: {}
+[5.221912] (-) TimerEvent: {}
+[5.322388] (-) TimerEvent: {}
+[5.422707] (-) TimerEvent: {}
+[5.523042] (-) TimerEvent: {}
+[5.623391] (-) TimerEvent: {}
+[5.723748] (-) TimerEvent: {}
+[5.824165] (-) TimerEvent: {}
+[5.924726] (-) TimerEvent: {}
+[6.025383] (-) TimerEvent: {}
+[6.125870] (-) TimerEvent: {}
+[6.226293] (-) TimerEvent: {}
+[6.326862] (-) TimerEvent: {}
+[6.427415] (-) TimerEvent: {}
+[6.527998] (-) TimerEvent: {}
+[6.628523] (-) TimerEvent: {}
+[6.729180] (-) TimerEvent: {}
+[6.829758] (-) TimerEvent: {}
+[6.930393] (-) TimerEvent: {}
+[7.031034] (-) TimerEvent: {}
+[7.131730] (-) TimerEvent: {}
+[7.232590] (-) TimerEvent: {}
+[7.333375] (-) TimerEvent: {}
+[7.433960] (-) TimerEvent: {}
+[7.534421] (-) TimerEvent: {}
+[7.634876] (-) TimerEvent: {}
+[7.735277] (-) TimerEvent: {}
+[7.835811] (-) TimerEvent: {}
+[7.920025] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rosmaster_a1::PathPlannerNode::\x1b[01;32m\x1b[Kpublish_metrics\x1b[m\x1b[K(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.920398] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:93:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.920767] (rosmaster_a1) StderrLine: {'line': b'   93 |       diagnostic_msgs::msg::KeyValue{"frame_id", frame_id_\x1b[01;31m\x1b[K}\x1b[m\x1b[K,\n'}
+[7.921254] (rosmaster_a1) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.921933] (rosmaster_a1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp:24\x1b[m\x1b[K,\n'}
+[7.922472] (rosmaster_a1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp:26\x1b[m\x1b[K,\n'}
+[7.922594] (rosmaster_a1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp:7\x1b[m\x1b[K,\n'}
+[7.922705] (rosmaster_a1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:8\x1b[m\x1b[K:\n'}
+[7.922803] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.922890] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.922959] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.923022] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [9]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.923119] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit KeyValue_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.923210] (rosmaster_a1) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.923607] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.923689] (rosmaster_a1) StderrLine: {'line': b'   40 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.923799] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.923935] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.924037] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.924194] (rosmaster_a1) StderrLine: {'line': b'   36 | struct \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K\n'}
+[7.924725] (rosmaster_a1) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.924857] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.924960] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.925139] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.925230] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:94:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.925841] (rosmaster_a1) StderrLine: {'line': b'   94 | gs::msg::KeyValue{"waypoint_count", std::to_string(waypoints_.size())\x1b[01;31m\x1b[K}\x1b[m\x1b[K,\n'}
+[7.925987] (rosmaster_a1) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.926113] (rosmaster_a1) StderrLine: {'line': b'\n'}
+[7.926190] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.926285] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.926383] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.926478] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [15]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.926576] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit KeyValue_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.926704] (rosmaster_a1) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.926807] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.926909] (rosmaster_a1) StderrLine: {'line': b'   40 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.927018] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.927090] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.927179] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.927258] (rosmaster_a1) StderrLine: {'line': b'   36 | struct \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K\n'}
+[7.927339] (rosmaster_a1) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.927412] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.927470] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.927533] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.927614] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:95:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.927711] (rosmaster_a1) StderrLine: {'line': b'   95 | ::KeyValue{"publish_interval_ms", std::to_string(publish_interval_ms)\x1b[01;31m\x1b[K}\x1b[m\x1b[K,\n'}
+[7.927791] (rosmaster_a1) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.927851] (rosmaster_a1) StderrLine: {'line': b'\n'}
+[7.927911] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.928795] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.929356] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.929549] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [20]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.929731] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit KeyValue_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.929891] (rosmaster_a1) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.930009] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.930131] (rosmaster_a1) StderrLine: {'line': b'   40 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.930393] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.930488] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.930549] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.930611] (rosmaster_a1) StderrLine: {'line': b'   36 | struct \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K\n'}
+[7.931740] (rosmaster_a1) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.931821] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.932127] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.932338] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.932498] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:96:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::KeyValue_(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.932765] (rosmaster_a1) StderrLine: {'line': b'   96 | stic_msgs::msg::KeyValue{"loop_rate_hz", std::to_string(loop_rate_hz)\x1b[01;31m\x1b[K}\x1b[m\x1b[K,\n'}
+[7.932900] (rosmaster_a1) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.933004] (rosmaster_a1) StderrLine: {'line': b'\n'}
+[7.933115] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.933224] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.933331] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.933429] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:50:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.933525] (rosmaster_a1) StderrLine: {'line': b'   50 |   explicit KeyValue_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.933612] (rosmaster_a1) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[7.933694] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<ContainerAllocator>::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.934261] (rosmaster_a1) StderrLine: {'line': b'   40 |   explicit \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[7.934991] (rosmaster_a1) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.935134] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:40:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.935232] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(const diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.935356] (rosmaster_a1) StderrLine: {'line': b'   36 | struct \x1b[01;36m\x1b[KKeyValue_\x1b[m\x1b[K\n'}
+[7.935492] (rosmaster_a1) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.935597] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.935681] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::KeyValue_<std::allocator<void> >::\x1b[01;32m\x1b[KKeyValue_\x1b[m\x1b[K(diagnostic_msgs::msg::KeyValue_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.935785] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp:36:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.935900] (-) TimerEvent: {}
+[7.936015] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:97:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kdiagnostic_msgs::msg::DiagnosticStatus_<std::allocator<void> >::_values_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<diagnostic_msgs::msg::KeyValue_<std::allocator<void> >, std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.936193] (rosmaster_a1) StderrLine: {'line': b'   97 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[7.936362] (rosmaster_a1) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.936527] (rosmaster_a1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:72\x1b[m\x1b[K,\n'}
+[7.936633] (rosmaster_a1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/janeikeliu/projects/rosmasterA1/src/path_planner_node.cpp:6\x1b[m\x1b[K:\n'}
+[7.936747] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/vector.tcc:210:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::vector<_Tp, _Alloc>&) \x1b[35m\x1b[K[with _Tp = diagnostic_msgs::msg::KeyValue_<std::allocator<void> >; _Alloc = std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.936860] (rosmaster_a1) StderrLine: {'line': b'  210 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[7.936946] (rosmaster_a1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.937030] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/vector.tcc:211:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<diagnostic_msgs::msg::KeyValue_<std::allocator<void> >, std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.937115] (rosmaster_a1) StderrLine: {'line': b'  211 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[7.937196] (rosmaster_a1) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.937274] (rosmaster_a1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:66\x1b[m\x1b[K:\n'}
+[7.937357] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:766:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::vector<_Tp, _Alloc>&&) \x1b[35m\x1b[K[with _Tp = diagnostic_msgs::msg::KeyValue_<std::allocator<void> >; _Alloc = std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.937441] (rosmaster_a1) StderrLine: {'line': b'  766 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[7.937527] (rosmaster_a1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.937603] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:766:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<diagnostic_msgs::msg::KeyValue_<std::allocator<void> >, std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.937701] (rosmaster_a1) StderrLine: {'line': b'  766 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[7.937780] (rosmaster_a1) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.937858] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:788:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::initializer_list<_Tp>) \x1b[35m\x1b[K[with _Tp = diagnostic_msgs::msg::KeyValue_<std::allocator<void> >; _Alloc = std::allocator<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.938214] (rosmaster_a1) StderrLine: {'line': b'  788 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[7.938384] (rosmaster_a1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.938643] (rosmaster_a1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:788:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<diagnostic_msgs::msg::KeyValue_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.938750] (rosmaster_a1) StderrLine: {'line': b'  788 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[7.938827] (rosmaster_a1) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.036117] (-) TimerEvent: {}
+[8.136637] (-) TimerEvent: {}
+[8.237075] (-) TimerEvent: {}
+[8.337441] (-) TimerEvent: {}
+[8.437827] (-) TimerEvent: {}
+[8.538236] (-) TimerEvent: {}
+[8.638764] (-) TimerEvent: {}
+[8.739354] (-) TimerEvent: {}
+[8.839828] (-) TimerEvent: {}
+[8.940205] (-) TimerEvent: {}
+[9.040620] (-) TimerEvent: {}
+[9.141099] (-) TimerEvent: {}
+[9.241560] (-) TimerEvent: {}
+[9.342107] (-) TimerEvent: {}
+[9.442542] (-) TimerEvent: {}
+[9.542986] (-) TimerEvent: {}
+[9.569279] (rosmaster_a1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/path_planner_node.dir/build.make:76: CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o] Error 1\n'}
+[9.569565] (rosmaster_a1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_planner_node.dir/all] Error 2\n'}
+[9.570225] (rosmaster_a1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.574496] (rosmaster_a1) CommandEnded: {'returncode': 2}
+[9.602569] (rosmaster_a1) JobEnded: {'identifier': 'rosmaster_a1', 'rc': 2}
+[9.613661] (-) EventReactorShutdown: {}

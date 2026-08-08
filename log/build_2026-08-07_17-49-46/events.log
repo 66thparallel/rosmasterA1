@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000821] (rosmaster_a1) JobQueued: {'identifier': 'rosmaster_a1', 'dependencies': OrderedDict()}
+[0.001081] (rosmaster_a1) JobStarted: {'identifier': 'rosmaster_a1'}
+[0.008184] (rosmaster_a1) JobProgress: {'identifier': 'rosmaster_a1', 'progress': 'cmake'}
+[0.009660] (rosmaster_a1) JobProgress: {'identifier': 'rosmaster_a1', 'progress': 'build'}
+[0.009739] (rosmaster_a1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', '--', '-j22', '-l22'], 'cwd': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'janeikeliu', 'GIT_EDITOR': ':', 'GIT_ASKPASS': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/janeikeliu', 'OLDPWD': '/home/janeikeliu/projects/rosmasterA1', 'TERM_PROGRAM_VERSION': '1.132.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e9e44209-0fb1-4f5b-a59c-301f49fe6089.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install:/home/janeikeliu/projects/sparky/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'janeikeliu', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/29743_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/projects/sparky/venv/bin:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/bin/remote-cli:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/opt/ros/jazzy/bin:/home/janeikeliu/projects/sparky/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/janei/.local/bin:/mnt/c/Users/janei/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/janei/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af4f20ae35.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/janeikeliu/projects/sparky/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'GIT_MERGE_AUTOEDIT': 'no', 'COPILOT_DEBUG_NONCE': 'cc570cc590d3f2e6dd4eac63b70ef2b5', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/janeikeliu/projects/sparky/install/path_planner/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_sim/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_description/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/metrics_logger/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.037180] (rosmaster_a1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.097780] (-) TimerEvent: {}
+[0.198139] (-) TimerEvent: {}
+[0.228998] (rosmaster_a1) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[0.298241] (-) TimerEvent: {}
+[0.398532] (-) TimerEvent: {}
+[0.424892] (rosmaster_a1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.432194] (rosmaster_a1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.443173] (rosmaster_a1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.455879] (rosmaster_a1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.498681] (-) TimerEvent: {}
+[0.508124] (rosmaster_a1) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.7 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[0.541077] (rosmaster_a1) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.554469] (rosmaster_a1) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.581072] (rosmaster_a1) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.598922] (-) TimerEvent: {}
+[0.616865] (rosmaster_a1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.619270] (rosmaster_a1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699067] (-) TimerEvent: {}
+[0.799438] (-) TimerEvent: {}
+[0.899791] (-) TimerEvent: {}
+[0.916674] (rosmaster_a1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.999981] (-) TimerEvent: {}
+[1.100561] (-) TimerEvent: {}
+[1.197320] (rosmaster_a1) StdoutLine: {'line': b'-- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.200749] (-) TimerEvent: {}
+[1.204279] (rosmaster_a1) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.210289] (rosmaster_a1) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.212176] (rosmaster_a1) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.300949] (-) TimerEvent: {}
+[1.383506] (rosmaster_a1) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[1.384084] (rosmaster_a1) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.401254] (-) TimerEvent: {}
+[1.501735] (-) TimerEvent: {}
+[1.535941] (rosmaster_a1) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.585577] (rosmaster_a1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.601958] (-) TimerEvent: {}
+[1.603661] (rosmaster_a1) StdoutLine: {'line': b'-- Build files have been written to: /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1\n'}
+[1.666375] (rosmaster_a1) StdoutLine: {'line': b'[ 25%] Built target gtest_main\n'}
+[1.666685] (rosmaster_a1) StdoutLine: {'line': b'[ 25%] Built target gtest\n'}
+[1.672290] (rosmaster_a1) StdoutLine: {'line': b'[ 37%] Built target path_planner_node\n'}
+[1.675281] (rosmaster_a1) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_controller_node.dir/src/pure_pursuit_controller_node.cpp.o\x1b[0m\n'}
+[1.680070] (rosmaster_a1) StdoutLine: {'line': b'[ 56%] Built target metrics_logger_node\n'}
+[1.683299] (rosmaster_a1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_simulator_node.dir/src/vehicle_simulator_node.cpp.o\x1b[0m\n'}
+[1.698137] (rosmaster_a1) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/test_pure_pursuit.dir/test/test_pure_pursuit.cpp.o\x1b[0m\n'}
+[1.700431] (rosmaster_a1) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/test_vehicle_kinematics.dir/test/test_vehicle_kinematics.cpp.o\x1b[0m\n'}
+[1.702061] (-) TimerEvent: {}
+[1.802531] (-) TimerEvent: {}
+[1.903424] (-) TimerEvent: {}
+[2.004176] (-) TimerEvent: {}
+[2.105133] (-) TimerEvent: {}
+[2.205833] (-) TimerEvent: {}
+[2.306448] (-) TimerEvent: {}
+[2.407223] (-) TimerEvent: {}
+[2.507869] (-) TimerEvent: {}
+[2.608484] (-) TimerEvent: {}
+[2.709001] (-) TimerEvent: {}
+[2.809530] (-) TimerEvent: {}
+[2.810262] (rosmaster_a1) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable test_vehicle_kinematics\x1b[0m\n'}
+[2.870575] (rosmaster_a1) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable test_pure_pursuit\x1b[0m\n'}
+[2.909679] (-) TimerEvent: {}
+[3.010137] (-) TimerEvent: {}
+[3.012646] (rosmaster_a1) StdoutLine: {'line': b'[ 87%] Built target test_vehicle_kinematics\n'}
+[3.074632] (rosmaster_a1) StdoutLine: {'line': b'[ 87%] Built target test_pure_pursuit\n'}
+[3.110415] (-) TimerEvent: {}
+[3.211098] (-) TimerEvent: {}
+[3.311567] (-) TimerEvent: {}
+[3.411971] (-) TimerEvent: {}
+[3.512332] (-) TimerEvent: {}
+[3.612763] (-) TimerEvent: {}
+[3.713287] (-) TimerEvent: {}
+[3.813880] (-) TimerEvent: {}
+[3.914516] (-) TimerEvent: {}
+[4.015091] (-) TimerEvent: {}
+[4.115571] (-) TimerEvent: {}
+[4.216657] (-) TimerEvent: {}
+[4.317070] (-) TimerEvent: {}
+[4.417501] (-) TimerEvent: {}
+[4.517942] (-) TimerEvent: {}
+[4.618364] (-) TimerEvent: {}
+[4.718996] (-) TimerEvent: {}
+[4.819664] (-) TimerEvent: {}
+[4.920167] (-) TimerEvent: {}
+[5.020839] (-) TimerEvent: {}
+[5.121295] (-) TimerEvent: {}
+[5.221685] (-) TimerEvent: {}
+[5.322247] (-) TimerEvent: {}
+[5.422702] (-) TimerEvent: {}
+[5.523087] (-) TimerEvent: {}
+[5.623475] (-) TimerEvent: {}
+[5.723889] (-) TimerEvent: {}
+[5.824371] (-) TimerEvent: {}
+[5.925076] (-) TimerEvent: {}
+[6.025883] (-) TimerEvent: {}
+[6.126522] (-) TimerEvent: {}
+[6.227234] (-) TimerEvent: {}
+[6.327975] (-) TimerEvent: {}
+[6.428532] (-) TimerEvent: {}
+[6.528929] (-) TimerEvent: {}
+[6.629451] (-) TimerEvent: {}
+[6.730077] (-) TimerEvent: {}
+[6.830848] (-) TimerEvent: {}
+[6.931455] (-) TimerEvent: {}
+[7.031887] (-) TimerEvent: {}
+[7.132677] (-) TimerEvent: {}
+[7.233338] (-) TimerEvent: {}
+[7.333816] (-) TimerEvent: {}
+[7.434512] (-) TimerEvent: {}
+[7.535068] (-) TimerEvent: {}
+[7.635766] (-) TimerEvent: {}
+[7.736471] (-) TimerEvent: {}
+[7.837228] (-) TimerEvent: {}
+[7.937978] (-) TimerEvent: {}
+[8.038721] (-) TimerEvent: {}
+[8.139424] (-) TimerEvent: {}
+[8.239778] (-) TimerEvent: {}
+[8.340233] (-) TimerEvent: {}
+[8.440744] (-) TimerEvent: {}
+[8.541375] (-) TimerEvent: {}
+[8.641799] (-) TimerEvent: {}
+[8.742350] (-) TimerEvent: {}
+[8.842943] (-) TimerEvent: {}
+[8.943588] (-) TimerEvent: {}
+[9.044079] (-) TimerEvent: {}
+[9.144567] (-) TimerEvent: {}
+[9.245058] (-) TimerEvent: {}
+[9.345643] (-) TimerEvent: {}
+[9.446195] (-) TimerEvent: {}
+[9.546683] (-) TimerEvent: {}
+[9.647192] (-) TimerEvent: {}
+[9.748084] (-) TimerEvent: {}
+[9.848720] (-) TimerEvent: {}
+[9.949118] (-) TimerEvent: {}
+[10.049611] (-) TimerEvent: {}
+[10.150283] (-) TimerEvent: {}
+[10.250931] (-) TimerEvent: {}
+[10.351550] (-) TimerEvent: {}
+[10.452101] (-) TimerEvent: {}
+[10.552750] (-) TimerEvent: {}
+[10.653514] (-) TimerEvent: {}
+[10.754262] (-) TimerEvent: {}
+[10.854672] (-) TimerEvent: {}
+[10.955055] (-) TimerEvent: {}
+[11.055539] (-) TimerEvent: {}
+[11.156178] (-) TimerEvent: {}
+[11.257137] (-) TimerEvent: {}
+[11.357782] (-) TimerEvent: {}
+[11.360083] (rosmaster_a1) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable vehicle_simulator_node\x1b[0m\n'}
+[11.457985] (-) TimerEvent: {}
+[11.558478] (-) TimerEvent: {}
+[11.659145] (-) TimerEvent: {}
+[11.759924] (-) TimerEvent: {}
+[11.860559] (-) TimerEvent: {}
+[11.866010] (rosmaster_a1) StdoutLine: {'line': b'[ 93%] Built target vehicle_simulator_node\n'}
+[11.960662] (-) TimerEvent: {}
+[12.061133] (-) TimerEvent: {}
+[12.161675] (-) TimerEvent: {}
+[12.262268] (-) TimerEvent: {}
+[12.362984] (-) TimerEvent: {}
+[12.463830] (-) TimerEvent: {}
+[12.564480] (-) TimerEvent: {}
+[12.665271] (-) TimerEvent: {}
+[12.765953] (-) TimerEvent: {}
+[12.866616] (-) TimerEvent: {}
+[12.967170] (-) TimerEvent: {}
+[13.067685] (-) TimerEvent: {}
+[13.168230] (-) TimerEvent: {}
+[13.269062] (-) TimerEvent: {}
+[13.369843] (-) TimerEvent: {}
+[13.470520] (-) TimerEvent: {}
+[13.571001] (-) TimerEvent: {}
+[13.671696] (-) TimerEvent: {}
+[13.772534] (-) TimerEvent: {}
+[13.873438] (-) TimerEvent: {}
+[13.974190] (-) TimerEvent: {}
+[14.075019] (-) TimerEvent: {}
+[14.175932] (-) TimerEvent: {}
+[14.276836] (-) TimerEvent: {}
+[14.377868] (-) TimerEvent: {}
+[14.478460] (-) TimerEvent: {}
+[14.579222] (-) TimerEvent: {}
+[14.679835] (-) TimerEvent: {}
+[14.774888] (rosmaster_a1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit_controller_node\x1b[0m\n'}
+[14.779905] (-) TimerEvent: {}
+[14.880296] (-) TimerEvent: {}
+[14.980751] (-) TimerEvent: {}
+[15.081568] (-) TimerEvent: {}
+[15.182362] (-) TimerEvent: {}
+[15.282958] (-) TimerEvent: {}
+[15.383704] (-) TimerEvent: {}
+[15.443960] (rosmaster_a1) StdoutLine: {'line': b'[100%] Built target pure_pursuit_controller_node\n'}
+[15.458390] (rosmaster_a1) CommandEnded: {'returncode': 0}
+[15.460035] (rosmaster_a1) JobProgress: {'identifier': 'rosmaster_a1', 'progress': 'install'}
+[15.470306] (rosmaster_a1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1'], 'cwd': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'janeikeliu', 'GIT_EDITOR': ':', 'GIT_ASKPASS': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/janeikeliu', 'OLDPWD': '/home/janeikeliu/projects/rosmasterA1', 'TERM_PROGRAM_VERSION': '1.132.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e9e44209-0fb1-4f5b-a59c-301f49fe6089.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install:/home/janeikeliu/projects/sparky/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'janeikeliu', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/29743_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/projects/sparky/venv/bin:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/janeikeliu/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/janeikeliu/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/bin/remote-cli:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/home/janeikeliu/.local/bin:/opt/ros/jazzy/bin:/home/janeikeliu/projects/sparky/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/janei/.local/bin:/mnt/c/Users/janei/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/janei/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af4f20ae35.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/janeikeliu/projects/sparky/venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1', 'GIT_MERGE_AUTOEDIT': 'no', 'COPILOT_DEBUG_NONCE': 'cc570cc590d3f2e6dd4eac63b70ef2b5', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/janeikeliu/projects/sparky/install/path_planner/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_sim/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/vehicle_description/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/metrics_logger/lib/python3.12/site-packages:/home/janeikeliu/projects/sparky/install/controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1:/home/janeikeliu/projects/sparky/install/vehicle_sim:/home/janeikeliu/projects/sparky/install/sparky_vehicle_sim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[15.480629] (rosmaster_a1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.481191] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/path_planner_node\n'}
+[15.481372] (rosmaster_a1) StdoutLine: {'line': b'-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/pure_pursuit_controller_node\n'}
+[15.483763] (-) TimerEvent: {}
+[15.491737] (rosmaster_a1) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/pure_pursuit_controller_node" to ""\n'}
+[15.492164] (rosmaster_a1) StdoutLine: {'line': b'-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/vehicle_simulator_node\n'}
+[15.497861] (rosmaster_a1) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/vehicle_simulator_node" to ""\n'}
+[15.498018] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/metrics_logger_node\n'}
+[15.498319] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/config\n'}
+[15.498581] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/config/default_route.yaml\n'}
+[15.498709] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/launch\n'}
+[15.498790] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/launch/simulator.launch.py\n'}
+[15.499277] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/rviz\n'}
+[15.499447] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/rviz/simulator.rviz\n'}
+[15.499648] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/urdf\n'}
+[15.499858] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/urdf/simulator_vehicle.urdf\n'}
+[15.500109] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/include\n'}
+[15.500242] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/include/rosmaster_a1\n'}
+[15.500481] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/include/rosmaster_a1/pure_pursuit.hpp\n'}
+[15.500669] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/include/rosmaster_a1/vehicle_kinematics.hpp\n'}
+[15.500808] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/package_run_dependencies/rosmaster_a1\n'}
+[15.501009] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/parent_prefix_path/rosmaster_a1\n'}
+[15.501341] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/ament_prefix_path.sh\n'}
+[15.501924] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/ament_prefix_path.dsv\n'}
+[15.503071] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/path.sh\n'}
+[15.503797] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/path.dsv\n'}
+[15.504276] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.bash\n'}
+[15.506210] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.sh\n'}
+[15.506936] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.zsh\n'}
+[15.507773] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.dsv\n'}
+[15.508614] (rosmaster_a1) StdoutLine: {'line': b'-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/package.dsv\n'}
+[15.509466] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/packages/rosmaster_a1\n'}
+[15.509592] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/cmake/rosmaster_a1Config.cmake\n'}
+[15.509821] (rosmaster_a1) StdoutLine: {'line': b'-- Up-to-date: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/cmake/rosmaster_a1Config-version.cmake\n'}
+[15.510245] (rosmaster_a1) StdoutLine: {'line': b'-- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/package.xml\n'}
+[15.510394] (rosmaster_a1) CommandEnded: {'returncode': 0}
+[15.525993] (rosmaster_a1) JobEnded: {'identifier': 'rosmaster_a1', 'rc': 0}
+[15.527945] (-) EventReactorShutdown: {}

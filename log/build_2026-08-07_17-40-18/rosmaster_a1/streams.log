@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1 -- -j22 -l22
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o[0m
+[6.413s] [100%] [32m[1mLinking CXX executable path_planner_node[0m
+[6.907s] [100%] Built target path_planner_node
+[6.924s] Invoked command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1 -- -j22 -l22
+[6.933s] Invoking command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1
+[6.939s] -- Install configuration: ""
+[6.939s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/path_planner_node
+[6.941s] -- Set non-toolchain portion of runtime path of "/home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/lib/rosmaster_a1/path_planner_node" to ""
+[6.941s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/config
+[6.942s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/config/default_route.yaml
+[6.943s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/package_run_dependencies/rosmaster_a1
+[6.944s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/parent_prefix_path/rosmaster_a1
+[6.945s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/ament_prefix_path.sh
+[6.945s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/ament_prefix_path.dsv
+[6.947s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/path.sh
+[6.949s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/environment/path.dsv
+[6.950s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.bash
+[6.950s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.sh
+[6.951s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.zsh
+[6.951s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/local_setup.dsv
+[6.951s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/package.dsv
+[6.952s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/ament_index/resource_index/packages/rosmaster_a1
+[6.953s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/cmake/rosmaster_a1Config.cmake
+[6.953s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/cmake/rosmaster_a1Config-version.cmake
+[6.953s] -- Installing: /home/janeikeliu/projects/rosmasterA1/install/rosmaster_a1/share/rosmaster_a1/package.xml
+[6.956s] Invoked command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/janeikeliu/projects/sparky/install/path_planner:/home/janeikeliu/projects/sparky/install/vehicle_description:/home/janeikeliu/projects/sparky/install/metrics_logger:/home/janeikeliu/projects/sparky/install/controller:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1
