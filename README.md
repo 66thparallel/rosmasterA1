@@ -1,8 +1,7 @@
 # ROSMASTER A1 C++ ROS 2 Port
 
 `rosmaster_a1` is a C++17 ROS 2 package that ports the Sparky route-planning,
-Pure Pursuit, kinematic simulation, and telemetry workflow. It is a simulator-first
-application for ROS 2 Humble on Ubuntu 22.04 and is not yet a direct hardware driver.
+Pure Pursuit, kinematic simulation, and telemetry workflow. It is currently simulator-friendly but is designed for a Yahboom Rosmaster A1 robotic car with Ackermann steering. The A1 features a Jetson Orin NANO with 8GB memory running ROS 2 Humble on Ubuntu 22.04. This app is not yet a direct hardware driver.
 
 ## Requirements
 
