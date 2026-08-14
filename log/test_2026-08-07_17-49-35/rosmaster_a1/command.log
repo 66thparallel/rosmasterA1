@@ -1,2 +1,0 @@
-Invoking command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1': VIRTUAL_ENV_PROMPT=(venv) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-Invoked command in '/home/janeikeliu/projects/rosmasterA1/build/rosmaster_a1' returned '8': VIRTUAL_ENV_PROMPT=(venv) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
