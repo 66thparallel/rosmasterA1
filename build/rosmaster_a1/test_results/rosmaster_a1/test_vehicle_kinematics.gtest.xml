@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" time="0." timestamp="2026-08-07T17:52:40.138" name="AllTests">
-  <testsuite name="VehicleKinematics" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-08-07T17:52:40.138">
-    <testcase name="IntegratesStraightMotion" file="/home/janeikeliu/projects/rosmasterA1/test/test_vehicle_kinematics.cpp" line="14" status="run" result="completed" time="0." timestamp="2026-08-07T17:52:40.138" classname="rosmaster_a1.VehicleKinematics" />
-    <testcase name="IntegratesHeadingUsingBicycleYawRate" file="/home/janeikeliu/projects/rosmasterA1/test/test_vehicle_kinematics.cpp" line="26" status="run" result="completed" time="0." timestamp="2026-08-07T17:52:40.138" classname="rosmaster_a1.VehicleKinematics" />
-  </testsuite>
-</testsuites>
